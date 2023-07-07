@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Carter+One&family=Handlee&family=Pacifico&display=swap');
+  /* font-family: 'Belanosima', sans-serif; */
+  /* font-family: 'Carter One', cursive; */
+  /* font-family: 'Handlee', cursive; */
+  /* font-family: 'Pacifico', cursive; */
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.nav-bg{
+  background: #000046; 
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+background: linear-gradient(to right, #1CB5E0, #000046); 
+}
+
+.nav-right{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-family: 'Handlee', cursive; 
+}
+
+.nav-heading{
+  font-size: 1.5rem; 
+  text-decoration: none;
+color: white;
+font-family: 'Carter One', cursive;
+}
+
+.custom-toggler.navbar-toggler{
+  border: 2px solid;
+  border-color: white;
+  padding: 0;
+}
+.custom-toggler .navbar-toggler-icon{
+  background-image: url('../../assets/Images/TogBtn.png');
+  width: 3.5rem;
+}
+
+@media (min-width:1125px) {
+  .nav-right{
+    margin: 0rem 32rem;
+  }
+}
+
+@media (max-width: 991px){
+  .nav-right{
+    text-align: center;
+  }
+}

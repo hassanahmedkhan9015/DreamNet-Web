@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Carter+One&family=Handlee&family=Kanit:ital,wght@1,700&family=Pacifico&display=swap');
+/* font-family: 'Belanosima', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-back{
+    width: 100%;
+    background-color:  #1795c5;
+}
+.headings{
+    color: white;
+    font-family: 'Carter One', cursive;
+}
+.subhead{
+    color: white;
+    font-size: 0.7rem;
+}

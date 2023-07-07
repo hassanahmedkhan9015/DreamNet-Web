@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Carter+One&family=Handlee&family=Kanit:ital,wght@1,700&family=Pacifico&display=swap');
+/* font-family: 'Belanosima', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-size: 3.5rem;
+    color: #1795c5;
+    font-family: 'Carter One', cursive;
+}
+
+@media (max-width:885px) {
+   .heading{
+    margin-top: auto;
+    font-size: 3.1rem;
+   }
+  }
+
+ 
+  /* .ani-right {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-timing-function: linear;
+
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    
+    
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      
+      
+    }
+  } */
+
+  .ani-right{
+    animation: MyDiv;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+  }
+  @keyframes MyDiv {
+    0%   {right: 0px; top: 0px;}
+    100%  {right: 100px; top: 0px;}
+  }
+  .ani-right {
+    /* width: 100px;
+    height: 100px;
+    background: #FF7A59;
+    position: relative; */
+    animation: MyDiv;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-direction: reverse;
+  }
+  
+  @keyframes MyDiv {
+    /* 0%   {left: 0px; top: 0px;}
+    100%  {left: 100px; top: 0px;} */
+
+    0%   {right: 0px; top: 0px;}
+    100%  {right: 100px; top: 0px;}
+  }
