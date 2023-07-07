@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-right{
+    padding: 0rem 10rem;
+}
+.round-img{
+    margin: 0rem -10rem;
+    padding: 0rem 0rem;
+    width: 100%;
+}
